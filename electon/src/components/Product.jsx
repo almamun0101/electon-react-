@@ -35,6 +35,19 @@ function Product(){
                 <Card item={{url:images[2], name:"Camera",price:"11.67"}}/>
                 
             </div>
+            <div class="flex justify-center py-10">
+                <div class="py-5 px-15 flex items-center gap-5 text-center">
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                </div>
+            </div>
         </section>
 
 
