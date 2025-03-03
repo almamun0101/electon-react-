@@ -1,7 +1,9 @@
 function Header(){
     return(
         <>
-            <div className="container">
+            <div className="header">
+                <div className="container">
+
                 <div className="flex justify-between py-5">
                 <div className="text">
                     <h3>
@@ -17,6 +19,7 @@ function Header(){
                     <i className="fa-solid fa-truck-fast"></i>
                     <h3>Track your Order</h3>
                     </div>
+                </div>
                 </div>
             </div>
 
@@ -44,10 +47,72 @@ function Header(){
                         <h2>Cart</h2>
                     </div>
                 </div>
+               </div>
+             </div>
+
+         </div>
+
+
+         <div class="bg-[#F4F4F4]">
+            <div class="">
+                <nav class=" container flex items-center justify-between">
+                    <div class="">
+                        <button class="border-1 border-transparent p-4 bg-sec-500 text-white ">Browse
+                            Catagories</button>
+                    </div>
+                    <ul class="flex items-center gap-15">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Catalog</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">About us</a></li>
+                    </ul>
+                    <div class="">
+                        <h2 class="font-bold">30 Days Free Return</h2>
+                    </div>
+                </nav>
             </div>
         </div>
 
-  </div>
+        <div class="container flex justify-between items-center py-10">
+         
+            <div class="">
+                <h1 class="text-pri-500 text-7xl font-bold w-20 py-5">
+                    Canon Camera
+                </h1>
+                <div class="">
+                    <button
+                        class="border-1 border-sec-500 text-white bg-sec-500 font-medium rounded-2xl p-3 hover:border-pri-500 hover:bg-transparent hover:text-pri-500">Shop
+                        Now</button>
+                    <button
+                        class="border-1 border-sec-500 text-white bg-sec-500 font-medium rounded-2xl p-3 hover:border-pri-500 hover:bg-transparent hover:text-pri-500">Read
+                        More</button>
+
+                </div>
+                <div class="py-5 px-15 flex items-center gap-5">
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="py-10 relative">
+                <img src="./Images/banner.png" alt="Camera_banner" />
+                <div
+                    class="bg-sec-500 w-35 h-35 rounded-full absolute bottom-15 -right-10 flex justify-center items-center">
+                    <h2 class="text-white text-2xl">
+                        Only $89
+                    </h2>
+                </div>
+            </div>
+        </div>
         
         
         
