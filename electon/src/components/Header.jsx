@@ -19,6 +19,34 @@ function Header(){
                     </div>
                 </div>
             </div>
+
+            <div class="navbar bg-pri-500">
+            <div class="container p-4 flex  items-center justify-between text-xs">
+                <div class="flex  gap-20">
+                   <img src="./Images/logo.png" alt="logo" />
+
+                    <div class=" flex ">
+                        <input type="search" className="border-1 bg-white rounded-l-lg"/>
+                        <button class="bg-sec-500 rounded-r-lg p-2 ">Searh</button>
+                    </div>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <div class="flex items-center text-white gap-3 font-light">
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Sign In</h2>
+                    </div>
+                    <div class="flex items-center text-white gap-3 font-light">
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Sign In</h2>
+                    </div>
+                    <div class="flex items-center text-white gap-3 font-light">
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Cart</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
   </div>
         
         
