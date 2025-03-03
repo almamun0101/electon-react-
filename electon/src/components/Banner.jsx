@@ -26,19 +26,80 @@ function Banner(){
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <div className="">
-                            
+                        <div className="flex  gap-3 py-5">
+                            <div className="bg-[#E2F4FF] w-15 h-15 rounded-full flex justify-center items-center">
+                                <h2 className="text-sec-500 text-2xl font-bold">57</h2>
+                            </div>
+                            <div className="bg-[#E2F4FF] w-15 h-15 rounded-full flex justify-center items-center">
+                                <h2 className="text-sec-500 text-2xl font-bold">57</h2>
+                            </div>
+                            <div className="bg-[#E2F4FF] w-15 h-15 rounded-full flex justify-center items-center">
+                                <h2 className="text-sec-500 text-2xl font-bold">57</h2>
+                            </div>
+                            <div className="bg-[#E2F4FF] w-15 h-15 rounded-full flex justify-center items-center">
+                                <h2 className="text-sec-500 text-2xl font-bold">57</h2>
+                            </div>
                         </div>
+                     <div className="flex items-center gap-3">
+                     <button className="bg-[#87BCD9] px-8 py-3 rounded-3xl font-bold flex items-center justify-between gap-5">Add To Chart
+                        <div className="bg-sec-500 p-2 rounded-full">
+                        <i class="fa-solid fa-cart-flatbed"></i>
+                        </div>
+                     </button>
+                      <button className="bg-[#87BCD9] p-4 rounded-3xl font-bold">
+                      <i class="fa-regular fa-eye"></i>
+                      </button>
+                      
+                    </div>
+                    <div class="py-5 px-15 flex items-center gap-5 text-center">
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                    <div
+                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
+                    </div>
+                   
+                </div>
                         
                     </div>
 
                 </div>
                 <div class="w-1/2 flex flex-col gap-5">
-                    <div class="p-10 border border-[#B6B6B6] rounded-2xl flex-1">
-
+                    <div class="p-10 border border-[#B6B6B6] rounded-2xl flex-1 ">
+                       <div className="flex items-center">
+                        <img src="./Images/gampad.png" alt="gamepad" />
+                        <div className="text">
+                            <div className="pt">
+                            <h2 className="text-2xl text-pri-500 font-medium py-5">Play games</h2>
+                            <h2 className="text-2xl">$11.70</h2>
+                            <div class="flex py-5 gap-2 text-gray-400">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        </div> 
                     </div>
                     <div class="p-10 border border-[#B6B6B6] rounded-2xl flex-1">
-
+                    <div className="flex items-center">
+                        <img src="./Images/product2.png" alt="gamepad" />
+                        <div className="text">
+                            <div className="pt">
+                            <h2 className="text-2xl text-pri-500 font-medium py-5">Play games</h2>
+                            <h2 className="text-2xl">$11.70</h2>
+                            <div class="flex py-5 gap-2 text-gray-400">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
