@@ -1,4 +1,6 @@
-import img1 from './Images/item1.png'
+// import img1 from './Images/item1.png'
+let img1 = "./Images/item1.png"
+let img2 = "./Images/item2.png"
 
 function Sldieshow(){
     return(
@@ -15,7 +17,9 @@ function Sldieshow(){
                         <i className="fa-solid fa-arrow-right"></i>
                     </button>
                     <div className="grid grid-cols-3 gap-5">
-                    <Card product={{name: "Laptop", quantity: "6 Item"}}/>
+                    <Card product={{url:img1 ,name: "Laptop", quantity: "6 Item"}}/>
+                    <Card product={{url:img2 ,name: "Laptop", quantity: "6 Item"}}/>
+                    <Card product={{url:img2 ,name: "Laptop", quantity: "6 Item"}}/>
                     
              </div>
                 </div>
@@ -31,7 +35,7 @@ function Sldieshow(){
 function Card({product}){
     return(
                 <div className="border-1 border-pri-500 rounded-4xl py-5 px-5 flex items-center justify-around">
-                    <img src={img1} alt="speaker" />
+                    <img src={product.url} alt="speaker" />
                     <div className="text-pri-500 text-2xl">
                         <h2>{product.name}</h2>
                         <h2>{product.quantity}</h2>
