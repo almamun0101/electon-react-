@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Sldieshow from './components/Slideshow'
 import Product from './components/Product'
 import Banner from './components/Banner'
+import Review from './components/Review'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Sldieshow/>
       <Product/>
       <Banner />
+      <Review />
     </>
   )
 }
