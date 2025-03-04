@@ -6,6 +6,12 @@ let team1 = "./Images/team1.png"
 let team2 = "./Images/team2.png"
 let team3 = "./Images/team3.png"
 
+let brand1 = "./Images/brand1.png"
+let brand2 = "./Images/brand2.png"
+let brand3 = "./Images/brand3.png"
+let brand4 = "./Images/brand4.png"
+let brand5 = "./Images/brand5.png"
+
 function Review(){
     return(
         <>
@@ -23,6 +29,18 @@ function Review(){
                 <Team team={{url:team2, name:"Estheryy"}}/>
                 <Team team={{url:team3, name:"Esther Howard"}}/>
             </div>
+            <div className="bg-[#E2F4FF] py-10 rounded-3xl">
+                <div className="grid grid-cols-5 gap-5">
+
+                    <img src={brand1} alt="brand1" />
+                    <img src={brand2} alt="brand1" />
+                    <img src={brand3} alt="brand1" />
+                    <img src={brand4} alt="brand1" />
+                    <img src={brand5} alt="brand1" />
+                  
+                </div>
+            </div>
+
 
 
         </div>

@@ -1,3 +1,5 @@
+import Dots from "./Dots";
+
 let images = ["./Images/product1.png","./Images/product2.png","./Images/product3.png","./Images/product4.png"]
 
 function Product(){
@@ -37,15 +39,9 @@ function Product(){
             </div>
             <div class="flex justify-center py-10">
                 <div class="py-5 px-15 flex items-center gap-5 text-center">
-                    <div
-                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
-                    </div>
-                    <div
-                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
-                    </div>
-                    <div
-                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
-                    </div>
+                  <Dots/>
+                  <Dots/>
+                  <Dots/>
                 </div>
             </div>
         </section>

@@ -1,3 +1,5 @@
+import Dots from "./Dots";
+
 let bannerImg = "./Images/banner2.png"
 function Banner(){
     return(
@@ -51,16 +53,12 @@ function Banner(){
                       </button>
                       
                     </div>
+                        
                     <div class="py-5 px-15 flex items-center gap-5 text-center">
-                    <div
-                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
-                    </div>
-                    <div
-                        class="border-2 border-pri-500 w-4 h-4 rounded-full bg-white hover:border-transparent hover:bg-sec-500">
-                    </div>
+                 <Dots/>
+                 <Dots/>
                    
                 </div>
-                        
                     </div>
 
                 </div>
