@@ -2,6 +2,10 @@ let icon1 = "./Svg/icon1.svg"
 let icon2 = "./Svg/icon2.png"
 let icon3 = "./Svg/icon3.svg"
 
+let team1 = "./Images/team1.png"
+let team2 = "./Images/team2.png"
+let team3 = "./Images/team3.png"
+
 function Review(){
     return(
         <>
@@ -15,7 +19,9 @@ function Review(){
             </div>
 
             <div className="grid grid-cols-3 gap-5">
-
+                <Team team={{url:team1, name:"Savannah nguyan"}}/>
+                <Team team={{url:team2, name:"Estheryy"}}/>
+                <Team team={{url:team3, name:"Esther Howard"}}/>
             </div>
 
 
@@ -36,7 +42,25 @@ function CardReview({Review}) {
     )
 }
 
-function team(){
-    return([])
+function Team({team}){
+    return(
+        <>
+            <div className="border border-ass-500 my-20 p-10 rounded-3xl">
+                <div className="flex items-center gap-8">
+                    <div className="border-red-600 border-4 rounded-full inline-block p-2 border-dashed">
+                        <img src={team.url} alt="" />
+                    </div>
+                    <div className="text-2xl font-medium text-pri-500">
+                        <h2>{team.name}</h2>
+                    </div>
+
+                </div>
+                <p className="p-5 bg-[#E2F4FF] rounded-2xl mt-5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum consequuntur neque quod, quisquam consequatur nulla ipsa praesentium! Et, optio quisquam.
+                </p>
+            </div>
+        </>
+
+    )
 }
 export default Review
