@@ -14,6 +14,10 @@ function Review(){
                 </div>
             </div>
 
+            <div className="grid grid-cols-3 gap-5">
+
+            </div>
+
 
         </div>
         </>
@@ -30,5 +34,9 @@ function CardReview({Review}) {
             </div>
         </div>
     )
+}
+
+function team(){
+    return([])
 }
 export default Review
