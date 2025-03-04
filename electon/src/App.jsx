@@ -5,6 +5,7 @@ import Product from './components/Product'
 import Banner from './components/Banner'
 import Review from './components/Review'
 import News from './components/News'
+import Footer from './components/Footer'
 
 import './App.css'
 
@@ -17,7 +18,7 @@ function App() {
       <Banner />
       <Review />
       <News/>
-      
+      <Footer/>
     </>
   )
 }

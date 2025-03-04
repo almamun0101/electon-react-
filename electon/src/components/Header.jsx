@@ -32,7 +32,7 @@ function Header(){
 
                     <div class=" flex ">
                         <input type="search" className="border-1 bg-white rounded-l-lg"/>
-                        <button class="bg-sec-500 rounded-r-lg p-2 ">Searh</button>
+                        <button class="bg-sec-500 rounded-r-lg px-5 ">Searh</button>
                     </div>
                 </div>
                 <div class="flex gap-2 items-center">
@@ -82,7 +82,7 @@ function Header(){
                 <h1 class="text-pri-500 text-7xl font-bold w-20 py-5">
                     Canon Camera
                 </h1>
-                <div class="">
+                <div className="flex gap-5">
                     <button
                         class="border-1 border-sec-500 text-white bg-sec-500 font-medium rounded-2xl p-3 hover:border-pri-500 hover:bg-transparent hover:text-pri-500">Shop
                         Now</button>

@@ -11,6 +11,8 @@ body{
   --color-pri-500: oklch(35.19% 0.0829 241.62);
   --color-sec-500: oklch(77.03% 0.1581 75.98);
   --color-ass-500: oklch(78.89% 0 0)
-  
-
+}
+li::marker{
+  color:gray;
+  list-style-type: circle
 }
