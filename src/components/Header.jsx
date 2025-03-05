@@ -1,6 +1,9 @@
 import Dots from "./Dots"
 
 function Header(){
+    function changePage(){
+        alert(this.innerHTML)
+    }
     return(
         <>
             <div className="header">
@@ -64,7 +67,7 @@ function Header(){
                     </div>
                     <ul class="flex items-center gap-15">
                         <li><a href="">Home</a></li>
-                        <li><a href="">Catalog</a></li>
+                        <li onClick={changePage}><a href="Catalog.html">Catalog</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Pages</a></li>
                         <li><a href="">About us</a></li>
