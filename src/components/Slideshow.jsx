@@ -16,7 +16,7 @@ function Sldieshow(){
                         className="absolute top-15 border-1 border-transparent rounded-full w-10 h-10 bg-[#EAEAEA] -right-5">
                         <i className="fa-solid fa-arrow-right"></i>
                     </button>
-                    <div className="grid grid-cols-3 gap-5">
+                    <div className="grid lg:grid-cols-3 gap-5">
                     <Card product={{url:img1 ,name: "Laptop", quantity: "6 Item"}}/>
                     <Card product={{url:img2 ,name: "Laptop", quantity: "6 Item"}}/>
                     <Card product={{url:img2 ,name: "Laptop", quantity: "6 Item"}}/>

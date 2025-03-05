@@ -9,7 +9,7 @@ function Header(){
             <div className="header">
                 <div className="container">
 
-                <div className="flex justify-between py-2 lg:py-5 lg:text:normal text-xs">
+                <div className="flex justify-between py-2 lg:py-3 lg:text:normal text-xs">
                 <div className="text">
                     <h3 className=" w-20">
                     Need help? Call us: (+98) 0234 456 789
@@ -29,16 +29,16 @@ function Header(){
             </div>
 
             <div class="navbar bg-pri-500">
-            <div class="container p-4 flex  items-center justify-between text-xs">
-                <div class="flex  gap-20">
+            <div class="container py-3 flex  items-center justify-between text-xs">
+                <div class="flex gap-4 lg:gap-50">
                    <img src="./Images/logo.png" alt="logo" />
 
                     <div class=" flex justify-between ">
-                        <input type="search" className="border-1 bg-white rounded-l-lg"/>
-                        <button class="bg-sec-500 rounded-r-lg px-5 ">Searh</button>
+                        <input type="search" className="border-1 bg-white rounded-l-lg w-30 lg:w-1uto"/>
+                        <button class="bg-sec-500 rounded-r-lg px-2 lg:px-10">Searh</button>
                     </div>
                 </div>
-                <div class="flex gap-2 items-center">
+                <div class="flex gap-1 lg:gap-2 items-center justify-between">
                     <div class="flex items-center text-white gap-3 font-light">
                         <i class="fa-solid fa-user"></i>
                         <h2>Sign In</h2>
@@ -85,7 +85,7 @@ function Header(){
                 <h1 class="text-pri-500 text-4xl lg:text-7xl font-bold w-20 py-5">
                     Canon Camera
                 </h1>
-                <div className="flex gap-1 lg:gap-5">
+                <div className="flex gap-1 lg:gap-5 text-sm">
                     <button
                         class="border-1 border-sec-500 text-white bg-sec-500 font-medium rounded-2xl p-2 lg:p-3 hover:border-pri-500 hover:bg-transparent hover:text-pri-500">Shop
                         Now</button>
@@ -105,7 +105,7 @@ function Header(){
             <div class="py-10 relative">
                 <img src="./Images/banner.png" alt="Camera_banner" />
                 <div
-                    class="bg-sec-500 w-20 h-20 lg:w-35 lg:h-35 rounded-full absolute bottom-15 right lg:-right-10 flex justify-center items-center">
+                    class="bg-sec-500 w-20 h-20 lg:w-35 lg:h-35 rounded-full absolute bottom-15 right-10  lg:-right-10 flex justify-center items-center">
                     <h2 class="text-white  lg:text-2xl">
                         Only $89
                     </h2>
