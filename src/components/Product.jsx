@@ -10,7 +10,7 @@ function Product(){
                 <div class="font-bold text-3xl">
                     <h2>Popular products</h2>
                 </div>
-                <div class="flex  items-center gap-5">
+                <div class="flex items-center gap-2">
                     <div class="border-2 p-2 rounded-2xl text-pri-500 border-pri-500 px-6 ">
                         <h3>Cameras</h3>
                     </div>
@@ -26,7 +26,7 @@ function Product(){
                 </div>
             </div>
 
-            <div class="grid grid-cols-4 gap-5">
+            <div class="grid grid-cols-2  lg:grid-cols-4 gap-5">
                 <Card item={{url:images[0], name:"Camera",price:"11.67"}}/>
                 <Card item={{url:images[1], name:"Laptop",price:"11.67"}}/>
                 <Card item={{url:images[2], name:"Headphone",price:"11.67"}}/>
