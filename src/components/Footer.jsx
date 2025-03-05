@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <>
-        <div className="bg-[#E2F4FF] w-screen p-20">
+        <div className="bg-[#E2F4FF] p-20">
         <div className="container text-pri-500">
             <div className="p-8 bg-white rounded-2xl">
                 <div className="flex gap-5 items-center justify-between">
@@ -12,10 +12,8 @@ function Footer(){
                         <h2 className="w-30">Call us 24/7 :
                         (+62) 0123 567 789</h2>
                     </div>
+                 </div>
             </div>
-
-        
-        </div>
             <div className="flex justify-between gap-10 py-20">
                 <div className="">
                     <img src="./Images/logo2.png" alt="logo" />
