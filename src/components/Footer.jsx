@@ -1,12 +1,12 @@
 function Footer(){
     return(
         <>
-        <div className="bg-[#E2F4FF] p-20">
+        <div className="bg-[#E2F4FF] p-4 lg:p-20">
         <div className="container text-pri-500">
-            <div className="p-8 bg-white rounded-2xl">
-                <div className="flex gap-5 items-center justify-between">
-                    <h2 className="font-bold text-3xl">Subscribe newsletter</h2>
-                    <input type="text" className="w-80 bg-sec-500 rounded-2xl px-10 py-5 placeholder:text-white placeholder:font-bold" placeholder="Email Address"/>
+            <div className="p-6 bg-white rounded-2xl">
+                <div className="flex flex-col lg:flex-row gap-3 items-center justify-between">
+                    <h2 className="font-bold lg:text-3xl">Subscribe newsletter</h2>
+                    <input type="text" className="w- lg:w-80 bg-sec-500 rounded-2xl px-10 py-5 placeholder:text-white placeholder:font-bold" placeholder="Email Address"/>
                     <div className="flex items-center gap-5">
                         <img src="./Images/headphone.png" alt="headphone" />
                         <h2 className="w-30">Call us 24/7 :

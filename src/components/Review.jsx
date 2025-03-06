@@ -17,14 +17,14 @@ function Review(){
         <>
         <div className="container">
             <div className="bg-[#E2F4FF] p-5 rounded-3xl">
-                <div className="grid grid-cols-3 gap-5">
+                <div className="grid lg:grid-cols-3 gap-5">
                     <CardReview Review={{url:icon1 , title:"Free Delivery" , details:"On Order Above $50,00"}}/>
                     <CardReview Review={{url:icon2 , title:"Best Quality" , details:"Best Quality In Low Price"}}/>
                     <CardReview Review={{url:icon3 , title:"1 year Warranty " , details:"Available Warranty"}}/>
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid lg:grid-cols-3 gap-5">
                 <Team team={{url:team1, name:"Savannah nguyan"}}/>
                 <Team team={{url:team2, name:"Estheryy"}}/>
                 <Team team={{url:team3, name:"Esther Howard"}}/>
@@ -63,7 +63,7 @@ function CardReview({Review}) {
 function Team({team}){
     return(
         <>
-            <div className="border border-ass-500 my-20 p-10 rounded-3xl">
+            <div className="border border-ass-500 mt-5 my-2 lg:my-20 p-10 rounded-3xl">
                 <div className="flex items-center gap-8">
                     <div className="border-red-600 border-4 rounded-full inline-block p-2 border-dashed">
                         <img src={team.url} alt="" />
