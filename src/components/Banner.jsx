@@ -17,7 +17,7 @@ function Banner(){
 
             <div class="flex flex-col lg:w-full py-20 gap-5">
                 <div class="lg:w-2/3 border border-[#B6B6B6] rounded-2xl p-10 flex flex-col">
-                    <img src="./Images/speaker.png" alt="" />
+                    <img src="./Images/speaker.png" alt="Speaker" />
                     <div className="pt-5">
                         <h2 className="text-2xl text-pri-500 font-medium py-5">JBL bar 2.1 deep Bass</h2>
                         <h2 className="text-2xl">$11.70</h2>
