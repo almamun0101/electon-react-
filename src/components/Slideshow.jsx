@@ -9,11 +9,11 @@ function Sldieshow(){
             <div className="container">
                 <div className="relative">
                     <button
-                        className="absolute top-15 border-1 border-transparent rounded-full w-10 h-10 bg-[#EAEAEA] -left-5">
+                        className="absolute top-15 border-1 border-transparent rounded-full w-10 h-10 bg-[#EAEAEA] -left-1 lg:-left-5">
                         <i className="fa-solid fa-arrow-left"></i>
                     </button>
                     <button
-                        className="absolute top-15 border-1 border-transparent rounded-full w-10 h-10 bg-[#EAEAEA] -right-5">
+                        className="absolute top-15 border-1 border-transparent rounded-full w-10 h-10 bg-[#EAEAEA] -right-0 lg:-right-5">
                         <i className="fa-solid fa-arrow-right"></i>
                     </button>
                     <div className="grid lg:grid-cols-3 gap-5">

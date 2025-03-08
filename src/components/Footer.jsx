@@ -14,7 +14,7 @@ function Footer(){
                     </div>
                  </div>
             </div>
-            <div className="flex flex-col items-center lg:flex-row justify-between gap-1 lg:gap:10 py-10">
+            <div className="flex flex-col md:flex-row items-center lg:flex-row justify-between gap-1 lg:gap:10 py-10">
                 <div className="">
                     <img src="./Images/logo2.png" alt="logo" />
                     <p className="w-50 py-6">64 st james boulevard

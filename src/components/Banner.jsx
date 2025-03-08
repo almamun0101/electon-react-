@@ -15,11 +15,11 @@ function Banner(){
                 </div>
             </div>
 
-            <div class="flex flex-col lg:w-full py-20 gap-5">
-                <div class="lg:w-2/3 border border-[#B6B6B6] rounded-2xl p-10 flex flex-col">
+            <div class="flex flex-col lg:flex-row lg:w-full py-20 gap-5">
+                <div class="lg:w-2/3 border border-[#B6B6B6] rounded-2xl p-10 flex flex-col lg:flex-row">
                     <img src="./Images/speaker.png" alt="Speaker" />
                     <div className="pt-5">
-                        <h2 className="text-2xl text-pri-500 font-medium py-5">JBL bar 2.1 deep Bass</h2>
+                        <h2 className="text-2xl text-pri-500 font-medium lg:py-5">JBL bar 2.1 deep Bass</h2>
                         <h2 className="text-2xl">$11.70</h2>
                         <div class="flex py-5 gap-2 text-gray-400">
                             <i class="fa-solid fa-star"></i>
@@ -64,7 +64,7 @@ function Banner(){
                 </div>
                 <div class="lg:w-1/2 flex flex-col gap-5">
                     <div class="p-10 border border-[#B6B6B6] rounded-2xl flex-1 ">
-                       <div className="flex items-center">
+                       <div className="flex flex-col md:flex-row lg:flex-row items-center">
                         <img src="./Images/gampad.png" alt="gamepad" />
                         <div className="text">
                             <div className="pt">
@@ -82,7 +82,7 @@ function Banner(){
                         </div> 
                     </div>
                     <div class="p-10 border border-[#B6B6B6] rounded-2xl flex-1">
-                    <div className="flex items-center">
+                    <div className="flex flex-col md:flex-row lg:flex-row items-center">
                         <img src="./Images/product2.png" alt="gamepad" />
                         <div className="text">
                             <div className="pt">

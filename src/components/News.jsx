@@ -12,7 +12,7 @@ function News() {
           <h2 className="font-bold text-3xl ">Latest News</h2>
           <button>View All</button>
         </div>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <CardNews blog={blog1} />
           <CardNews blog={blog2} />
         </div>

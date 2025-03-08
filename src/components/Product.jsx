@@ -6,7 +6,7 @@ function Product(){
     return(
         <>
          <section id="product" class="container">
-            <div class="py-15 flex justify-between">
+            <div class="py-15 flex flex-col lg:flex-row md:flex-row  gap-6 justify-between">
                 <div class="font-bold text-3xl">
                     <h2>Popular products</h2>
                 </div>
