@@ -29,7 +29,7 @@ function Header(){
             </div>
 
             <div class="navbar bg-pri-500">
-            <div class="container py-3 flex  items-center justify-between text-xs">
+            <div class="container py-3 flex flex-col items-center gap-3 justify-between text-xs">
                 <div class="flex gap-4 lg:gap-50">
                    <img src="./Images/logo.png" alt="logo" />
 
