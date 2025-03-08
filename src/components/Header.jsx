@@ -29,7 +29,7 @@ function Header(){
             </div>
 
             <div class="navbar bg-pri-500">
-            <div class="container py-3 flex flex-col items-center gap-3 justify-between text-xs">
+            <div class="container py-3 flex flex-col lg:flex-row items-center gap-3 justify-between text-xs">
                 <div class="flex gap-4 lg:gap-50">
                    <img src="./Images/logo.png" alt="logo" />
 
@@ -60,7 +60,7 @@ function Header(){
 
          <div class="bg-[#F4F4F4]">
             <div class="">
-                <nav class=" container flex items-center justify-around text-sm text-center">
+                <nav class=" container flex items-center justify-between text-sm text-center">
                     <div class="">
                         <button class="border-1 border-transparent p-2 bg-sec-500 text-white text-sm">Browse
                             Catagories</button>
